@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+
+    <!--JavaScript stuffs-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('select').material_select();
+      });
+    </script>
+
+  </head>
+  <body>
+
+  	<nav>
+	    <div class="nav-wrapper">
+	      <a href="index.html" class="brand-logo" id="headerlogo">Logo</a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a id="navlinks" href="index.html">Home</a></li>
+	        <li class="active"><a id="navlinks" href="teams.html">Teams</a></li>
+	        <li><a id="navlinks" href="schedule.html">Schedule</a></li>
+	      </ul>
+	    </div>
+	  </nav>
+
+
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="input-field col s8">
+            <i class="material-icons prefix">textsms</i>
+            <input type="text" id="autocomplete-input" class="autocomplete">
+            <label for="autocomplete-input">Search Nearby Teams</label>
+          </div>
+
+          <div class = "input-field col s4">
+            <select>
+              <option value="" disabled selected>Select a radius</option>
+              <option value="1">1 mile</option>
+              <option value="2">5 miles</option>
+              <option value="3">10 miles</option>
+              <option value="3">>10 miles</option>
+            </select>
+            <label>Search Radius</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class="col s12">
+        <table class = "highlight">
+          <thead>
+            <tr>
+              <th>Team Name</th>
+              <th>Location</th>
+              <th>Stats</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Team A</td>
+              <td>Troy NY</td>
+              <td>10W:5L</td>
+            </tr>
+            <tr>
+              <td>Team B</td>
+              <td>Albany NY</td>
+              <td>6W:6L</td>
+            </tr>
+            <tr>
+              <td>Team C</td>
+              <td>Somewhereville NY</td>
+              <td>8W:3L</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </body>
+
+  <footer>
+    <h6 class="white-text" id="copyrighttext">© 2018 Copyright</h6>
+  </footer>
+</html>
+        
