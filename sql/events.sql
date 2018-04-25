@@ -1,4 +1,4 @@
--- create the tables for our movies
+-- create the tables for our events
 
 CREATE TABLE `events` (
  `id` int unsigned NOT NULL AUTO_INCREMENT,

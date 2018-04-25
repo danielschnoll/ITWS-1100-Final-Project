@@ -1,4 +1,4 @@
--- create the tables for our movies
+-- create the tables for our teams
 
 CREATE TABLE `teams` (
  `id` int unsigned NOT NULL AUTO_INCREMENT,
