@@ -31,4 +31,4 @@ CREATE TABLE `user_teams` (
  `u_id` int unsigned NOT NULL,
  `t_id` int unsigned NOT NULL,
  PRIMARY KEY (`u_id`)
-)
+);
