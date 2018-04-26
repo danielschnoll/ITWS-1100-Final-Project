@@ -16,7 +16,4 @@
 
     <nav>
         <div class="nav-wrapper">
-          <a href="index.php" class="brand-logo" id="headerlogo">Logo</a>
-          <!--
-          <a class="brand-logo right">Hi, </a>
-   -->
+          <a href="index.php" class="brand-logo" id="headerlogo"><img id="swishimg" src="images/swishfinal.png"/></a>

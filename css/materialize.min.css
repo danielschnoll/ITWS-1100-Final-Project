@@ -1,3 +1,8 @@
+#swishimg {
+  height: $navbar-logo-image-height;
+  width: 11%;
+}
+
 #headerlogo {
   padding-left: 2%;
 }
