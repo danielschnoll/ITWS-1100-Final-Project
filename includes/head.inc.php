@@ -17,6 +17,6 @@
     <nav>
         <div class="nav-wrapper">
           <a href="index.php" class="brand-logo" id="headerlogo">Logo</a>
-
-        </div>
-      </nav>
+          <!--
+          <a class="brand-logo right">Hi, </a>
+   -->
