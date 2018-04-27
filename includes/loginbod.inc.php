@@ -26,8 +26,9 @@
     .input-field input[type=password]:focus {
       border-bottom: 2px solid #e91e63;
       box-shadow: none;
+      color: black;
     }
-  </style>
+</style>
 
 <body>
   <div class = "row"></div>
@@ -39,7 +40,7 @@
       <div class="container">
         <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
 
-          <form class="col s12" method="post">
+          <form class="col s12" method="post" action="login_action.php">
             <div class='row'>
               <div class='col s12'>
               </div>
@@ -58,7 +59,10 @@
                 <label for='password'>Enter your password</label>
               </div>
               <label style='float: right;'>
-                <a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+                <a class='pink-text' href='forgotpassword.php'><b>Forgot Password?</b></a>
+              </label>
+              <label style='float: left;'>
+                <a class='pink-text' href='accountcreate.php'><b>Create Account</b></a>
               </label>
             </div>
 

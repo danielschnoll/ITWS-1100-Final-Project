@@ -30,16 +30,9 @@
 
 <?php
   if($dbOk){
-	include('includes/loginbod.inc.php'); 
+    include('includes/loginbod.inc.php'); 
   }
 ?>
-
-
-
-
-
-
-
 
 
 <?php include('includes/foot.inc.php'); 
