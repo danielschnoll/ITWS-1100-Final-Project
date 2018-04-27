@@ -7,7 +7,3 @@ CREATE TABLE `users` (
  `password` varchar(100) NOT NULL,
  PRIMARY KEY (`id`)
 );
-
-
-INSERT INTO `users` VALUES
-	(1, "Daniel", "schnolldj@gmail.com", "password");
