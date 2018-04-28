@@ -21,7 +21,10 @@
 		$userRecord = $userResult->fetch_assoc();
 
     if (password_verify($_POST['password'], $userRecord['password'])){
-    	echo("HELLO!");
+    	session_start();
+      $_SESSION['userID'] = $userRecord['id'];
+      header("Location: index.php");
+      exit;
     }
 
     else{

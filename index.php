@@ -1,5 +1,6 @@
 <?php 
-  $currentUserId = 1;
+  session_start();
+  $currentUserId = $_SESSION['userID'];
 
 
   include('includes/init.inc.php'); // include the DOCTYPE and opening tags

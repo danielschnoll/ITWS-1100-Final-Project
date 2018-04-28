@@ -26,9 +26,11 @@
         $hashedpw = password_hash($password, PASSWORD_DEFAULT);
         $sql = "INSERT INTO `users` (username, email, password) VALUES (\"" . $username . "\", \"" . $email . "\", \"" . $hashedpw . "\")";
         $userResult = $db->query($sql);
+        header("Location: login.php");
+        exit;
       }
     }
     
-    $userResult->free();
+    
   }
 ?>
