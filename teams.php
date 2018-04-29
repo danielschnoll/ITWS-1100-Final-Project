@@ -55,6 +55,9 @@
 <?php include ('includes/createteam.inc.php');
 ?>
 
+<?php include ('includes/jointeam.inc.php');
+?>
+
 <?php include('includes/foot.inc.php'); 
   // footer info and closing tags
 ?>
