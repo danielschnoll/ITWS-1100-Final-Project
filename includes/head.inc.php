@@ -14,5 +14,5 @@
   <body>
 
     <nav>
-        <div class="nav-wrapper">
-          <a href="index.php" class="brand-logo" id="headerlogo"><img id="swishimg" src="images/swishfinal.png"/></a>
+        <div class="nav-wrapper" id = "headerlogo">
+          <!--<a href="index.php" class="brand-logo" id="headerlogo">--><img id="swishimg" src="images/swishfinal.png"/><!--</a>-->

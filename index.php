@@ -32,15 +32,21 @@
 ?>
 
 <?php
-  // This block is for the welcome message at the top right.
-
   if ($dbOk) {
-    echo '<a class = "brand-logo right" style="padding-right: 2%"> Hi, ';
+    // This block is for the welcome message at the top center.
+    echo '<a class = "brand-logo center"> Hi, ';
     $userQuery = 'SELECT * FROM users WHERE id=' . $currentUserId;
     $userResult = $db->query($userQuery);
     $userRecord = $userResult->fetch_assoc();
     echo $userRecord['username'];
     echo '!</a>';
+
+    // This block is for the links on the right.
+    echo '<ul class="right hide-on-med-and-down">';
+    echo '<li class="active"><a id="navlinks" href="index.php">Home</a></li>';
+    echo '<li><a id="navlinks" href="teams.php">Teams</a></li>';
+    echo '</ul>';
+
     $userResult->free();
   }
 ?>
