@@ -52,10 +52,7 @@
 
 ?>
 
-<?php include ('includes/createteam.inc.php');
-?>
-
-<?php include ('includes/jointeam.inc.php');
+<?php include ('includes/teamsforms.inc.php');
 ?>
 
 <?php include('includes/foot.inc.php'); 
