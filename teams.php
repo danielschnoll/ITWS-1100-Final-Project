@@ -49,6 +49,10 @@
 
     $userResult->free();
   }
+
+?>
+
+<?php include ('includes/createteam.inc.php');
 ?>
 
 <?php include('includes/foot.inc.php'); 
