@@ -38,7 +38,7 @@
 
 <div class="row">
   <div class="col s12 m12">
-    <div class="card orange darken-1">
+    <div class="card deep-orange darken-1">
       <div class="card-content white-text">
         <span class="card-title">Create an Event</span>
         <p>If both of your teams know you want to play, have someone from either side create the event.</p>
